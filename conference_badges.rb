@@ -10,7 +10,7 @@ def batch_badge_creator(speakers)
   speakers.each do |name|
     assigned_room = room_assignments[name]
     #badge_messages.push("Hello, my name is #{name}! You'll be assinged room #{assigned_room}")
-    badge_message.push("Hello, my name is #{name}!")
+    badge_messages.push("Hello, my name is #{name}!")
 
   return badge_messages
 

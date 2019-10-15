@@ -34,7 +34,7 @@ def printer(speakers)
   badge_messages = batch_badge_creator(speakers)
   welcome_messages = assign_rooms(speakers)
 
-  badge_message.each do | badge_message|
+  badge_messages.each do | badge_message|
     puts badge_message
   end
 

@@ -1,9 +1,9 @@
 def badge_maker(name)
-  puts "Hi, my name is #{name}."
-
+  return "Hi, my name is #{name}."
 end
 
-def batch_badge_maker(speakers)
+
+def batch_badge_creator(speakers)
   #room_assignments = assign_roooms(speakers)
 
   badge_messages = []

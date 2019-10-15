@@ -27,7 +27,7 @@ def assign_rooms(speakers)
     welcome_messages.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     #assignment_dict[name] = index
   end
-
+  return welcome_messages
   #return assignment_dict
 end
 

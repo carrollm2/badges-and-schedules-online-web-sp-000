@@ -20,13 +20,15 @@ end
 
 def assign_rooms(speakers)
 
-  assignment_dict = {}
+  #assignment_dict = {}
+  welcome_messages = []
 
   speakers.each_with_index do |name, index|
-    assignment_dict[name] = index
+    welcome_messages.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
+    #assignment_dict[name] = index
   end
 
-  return assignment_dict
+  #return assignment_dict
 end
 
 

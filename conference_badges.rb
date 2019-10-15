@@ -14,7 +14,7 @@ def batch_badge_creator(speakers)
   end
 
   return badge_messages
-  
+
 end
 
 

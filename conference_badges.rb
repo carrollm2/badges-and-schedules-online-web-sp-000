@@ -1,3 +1,8 @@
+def badge_maker(name)
+  puts "Hi, my name is #{name}."
+
+end
+
 def batch_badge_maker(speakers)
   #room_assignments = assign_roooms(speakers)
 
